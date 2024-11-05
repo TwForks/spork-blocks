@@ -131,6 +131,7 @@ Blockly.ContextMenuRegistry.registry.unregister("blockDelete");
 contextMenuItems.registerDeleteBlock();
 Blockly.ContextMenuRegistry.registry.unregister("workspaceDelete");
 contextMenuItems.registerDeleteAll();
+// @ts-expect-error
 Blockly.comments.CommentView.defaultCommentSize = new Blockly.utils.Size(
   200,
   200
