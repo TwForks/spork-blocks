@@ -1,6 +1,6 @@
 {
   "name": "scratch-blocks",
-  "version": "2.0.0-spork.1",
+  "version": "2.0.0-spork.4",
   "description": "Scratch Blocks is a library for building creative computing interfaces.",
   "author": "Massachusetts Institute of Technology",
   "license": "Apache-2.0",
@@ -13,7 +13,6 @@
   "scripts": {
     "build": "webpack --mode production",
     "prepare": "husky || true",
-    "prepublish": "./temp-use-blockly-v12-rc.sh",
     "start": "webpack serve --open --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:lint": "eslint ."
@@ -33,9 +32,9 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "@blockly/continuous-toolbox": "^6.0.9",
-    "@blockly/field-colour": "^5.0.9",
-    "blockly": "^11.0.0"
+    "@blockly/continuous-toolbox": "^7.0.0-beta.1",
+    "@blockly/field-colour": "^4.0.2",
+    "blockly": "^12.0.0-beta.1"
   },
   "config": {
     "commitizen": {

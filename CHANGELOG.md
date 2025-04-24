@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-spork.4](https://github.com/scratchfoundation/scratch-blocks/compare/v2.0.0-spork.3...v2.0.0-spork.4) (2025-02-11)
+
+
+### Bug Fixes
+
+* new beta release for better Blockly v12 beta compatibility ([127ac8b](https://github.com/scratchfoundation/scratch-blocks/commit/127ac8b7b14e3ee86e4c6d038cb1759495f93001))
+
+# [2.0.0-spork.3](https://github.com/scratchfoundation/scratch-blocks/compare/v2.0.0-spork.2...v2.0.0-spork.3) (2024-12-10)
+
+
+### Bug Fixes
+
+* rename mouseDownWrapper fields for Blockly v12 compatibility ([adaf531](https://github.com/scratchfoundation/scratch-blocks/commit/adaf531cadf51f797cf6c33050df2380bb3cf372))
+
+# [2.0.0-spork.2](https://github.com/scratchfoundation/scratch-blocks/compare/v2.0.0-spork.1...v2.0.0-spork.2) (2024-12-10)
+
+
+### Bug Fixes
+
+* **deps:** use Blockly 12 beta instead of RC ([92a8a01](https://github.com/scratchfoundation/scratch-blocks/commit/92a8a010c496569ba04ca077744582e0ab71cd93))
+
 # [2.0.0-spork.1](https://github.com/scratchfoundation/scratch-blocks/compare/v1.1.86...v2.0.0-spork.1) (2024-10-21)
 
 

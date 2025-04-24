@@ -1,6 +1,8 @@
 {
-  "exclude": [
-    "./blockly-rc/"
+  "include": [
+    "./src/",
+    "./tests/",
+    "./types/"
   ],
   "compilerOptions": {
     "outDir": "./dist/",
